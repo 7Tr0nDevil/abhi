@@ -1,12 +1,12 @@
 // Define the BankCustomer class
-class BankCustomer {
+class BankCustomer1 {
     // Fields (attributes)
     String name;
     int accNo;
     int age;
 
     // Constructor to initialize the BankCustomer object
-    BankCustomer(String name, int accNo, int age) {
+    BankCustomer1(String name, int accNo, int age) {
         this.name = name;
         this.accNo = accNo;
         this.age = age;
@@ -21,10 +21,10 @@ class BankCustomer {
 }
 
 // Main class to run the program
-public class Main {
+public class BankCustomer {
     public static void main(String[] args) {
         // Create a BankCustomer object
-        BankCustomer customer1 = new BankCustomer("Alice", 123456, 30);
+        BankCustomer1 customer1 = new BankCustomer1("Alice", 123456, 30);
 
         // Display customer details
         customer1.displayDetails();
